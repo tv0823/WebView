@@ -10,11 +10,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="10"
+        android:layout_weight="15"
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/eT"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="80"
@@ -23,15 +23,17 @@
             android:inputType="text" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            android:text="Button" />
+            android:onClick="pressed"
+            android:text="Go" />
     </LinearLayout>
 
     <WebView
+        android:id="@+id/wV"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="90" />
+        android:layout_weight="85" />
 </LinearLayout>
